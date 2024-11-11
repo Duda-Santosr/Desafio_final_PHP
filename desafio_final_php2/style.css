@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, html {
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+h1,h2{
+    font-size: 40px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+table{
+    font-size: 23px;
+    margin-left: -10px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.685);
+    margin-top: -2%;
+    border: none;
+    color:white;
+    background-color: rgba(192, 68, 197, 0.685);
+    display: flexbox;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.fundo{
+    background-image: url(assets/lash.isapaiola.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+form{
+    background-color: rgba(201,128,215,0.295);
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.832);
+    margin-left: 70%;
+    margin-top: 5%;
+}
+
+p{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: none;
+    color: #410042;
+}
+
+#botao{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #d93edc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+#botao:hover {
+    background-color: #6e0078;
+}
+
